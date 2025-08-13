@@ -1,0 +1,1 @@
+python IPQ4019.ILQ.5.0/common/build/ipq/tools/genimg.py -i NAND_IMAGES -c IPQ4019.ILQ.5.0/common/build/ipq/tools/config -o out/ipq4019 -n IPQ4019.ILQ.5.0/common/build/ipq/tools/partition_tool -m IPQ4019.ILQ.5.0/common/build/ipq/tools/nand_mbn_generator.py
