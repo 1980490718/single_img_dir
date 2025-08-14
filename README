@@ -1,1 +1,3 @@
-python IPQ4019.ILQ.5.0/common/build/ipq/tools/genimg.py -i NAND_IMAGES -c IPQ4019.ILQ.5.0/common/build/ipq/tools/config -o out/ipq4019 -n IPQ4019.ILQ.5.0/common/build/ipq/tools/partition_tool -m IPQ4019.ILQ.5.0/common/build/ipq/tools/nand_mbn_generator.py
+# IPQ4019 CDT Generation Script
+# This script generates the CDT for IPQ4019 platform.
+python IPQ4019.ILQ.5.0/common/build/ipq/tools/genimg.py -i CDT_IMAGES -c IPQ4019.ILQ.5.0/common/build/ipq/tools/config -o out/ipq4019/cdt -n IPQ4019.ILQ.5.0/common/build/ipq/tools/partition_tool -m IPQ4019.ILQ.5.0/common/build/ipq/tools/nand_mbn_generator.py --cdt_gen=IPQ4019.ILQ.5.0/common/build/ipq/tools/cdt_generator.py
